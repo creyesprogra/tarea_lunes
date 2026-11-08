@@ -11,7 +11,7 @@ st.sidebar.text("¡Hola, Barra Lateral!")
 
 #     ÁREA PRINCIPAL    
 st.text("Esta es una aplicación simple")
-st.image("https://www.uss.cl/wp-content/uploads/2021/08/Logo-USS-Web-2021.png", width=250)
+st.image("https://researchers.uss.cl/skin/footerIcon/", width=250)
 
 # Botón del área principal
 if st.button("Haz clic"):
@@ -24,7 +24,7 @@ st.write(f"Escribiste: {nombre_texto}")
 
 #     BARRA LATERAL    
 st.sidebar.text("Esto es una barra lateral")
-st.sidebar.image("https://www.uss.cl/wp-content/uploads/2021/08/Logo-USS-Web-2021.png", width=200)
+st.sidebar.image("https://researchers.uss.cl/skin/footerIcon/", width=200)
 
 # Botón de la barra lateral
 if st.sidebar.button("Haz clic pero en la barra lateral"):
